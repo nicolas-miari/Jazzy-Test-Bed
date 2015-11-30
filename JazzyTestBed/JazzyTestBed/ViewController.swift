@@ -9,13 +9,12 @@
 import UIKit
 
 /**
- This is my (only) view controller.あああああ
- 
- - since: 1.0
- 
+
+ - since: 0.1
  - author: Nicolás Miari.
- 
- - copyright: 2015 Nicolás Miari. All rights reserved.
+ - todo: If the description is blank, the keywords from the second on appear
+ as if "nested" inside the first keyword, and there is a residual closing div
+ tag is rendered inside a code block at the end.
  */
 class ViewController: UIViewController
 {
