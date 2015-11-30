@@ -3,3 +3,5 @@ min_acl: private
 skip_undocumented: true
 readme: ../README.md
 author: Nicolas Miari (nmiari@jp.ibm.com)
+swift_version: 2.1
+github_url: https://github.com/nicolas-miari/Jazzy-Test-Bed
