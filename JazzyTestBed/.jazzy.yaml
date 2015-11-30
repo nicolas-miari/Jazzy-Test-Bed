@@ -1,0 +1,5 @@
+clean: true
+min_acl: private
+skip_undocumented: true
+readme: ../README.md
+author: Nicolas Miari (nmiari@jp.ibm.com)
