@@ -10,8 +10,7 @@ import Foundation
 
 /**
 - since: 0.1
-- author: Nicolás Miari.
-- todo: If the description is empty but all the documentation comment keywords 
+- todo: If the description is empty but all the documentation comment keywords
  and content start at the very beginning of each line (no leading space), then 
  the issue does not occur.
  */
