@@ -38,4 +38,17 @@ class RomanCharactersOnly
      */
     private var secondProperty:String!
     
+    
+    /**
+     This is a method that takes two arguments.
+     
+     - parameter size: An integer representing the size.
+     - parameter name: A string representing the name.
+     - since: 1.0
+     */
+    func firstMethod(withSize size:Int, name:String)
+    {
+        
+    }
+    
 }
