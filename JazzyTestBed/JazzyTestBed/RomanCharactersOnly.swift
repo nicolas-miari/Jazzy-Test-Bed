@@ -34,6 +34,7 @@ class RomanCharactersOnly
      However, that doesn't seem to break jazzy's output.
      
      - since: 1.0
+     
      - seealso: firstProperty
      */
     private var secondProperty:String!
@@ -42,13 +43,20 @@ class RomanCharactersOnly
     /**
      This is a method that takes two arguments.
      
+     - note: This method does nothing. This paragraph is here only to test the
+     `note:` keyword in this documentation.
+     
      - parameter size: An integer representing the size.
      - parameter name: A string representing the name.
+     
+     - returns: The integer zero, but only so that we can test the `returns:` 
+     keyword in this documentation.
+     
      - since: 1.0
      */
-    func firstMethod(withSize size:Int, name:String)
+    func firstMethod(withSize size:Int, name:String) -> Int
     {
-        
+        return 0
     }
     
 }
